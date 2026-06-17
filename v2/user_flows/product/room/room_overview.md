@@ -1,17 +1,29 @@
-## Room Routes
-## Room Flow - Offers
+# Room Routes
 
+# Room Flow - Offers
 
-1. User clicks the Product as Room(WBE).
-2. In Rooms have multiple sub items -> Offers, Calendar, Rooms and Rates
-2. Landing into the Room Product Page By Default land into offers page.
-3. Offer Page shows the list of offers as card view with select button and as in top sticky show the filter bar, it helps to filter out the offers based on filter value.
-4. In the Filter contains Arrival and Departure Date, Offer Code Filter, Guest count picker, Search action, clear filter what it do.
-5. In the date filter, when apply the dates, its show that date available offers.
-6. In the offer code search, we can search a offer.
-7. This lets the user choose how many guests are included in the offer search, It only appears when the property permission displayGuestCountInOfferandCalendarPage
-8. Search action works based on auto search is on -> when user search the value automatically filter if its off user must click the search button to apply filter values. it will appears based on enableAutoSearch permissions.
-9. when user selects the offer will navigate to calendar page.
+1. The user clicks the **Room** product in the Book Application Navbar.
+2. The Room product contains the following sub-pages:
+   - Offers
+   - Calendar
+   - Rooms & Rates
+3. By default, the user is navigated to the **Offers** page when the Room product is selected.
+4. The Offers page displays a list of available offers in a card view, each with a **Select** button. A sticky filter bar is displayed at the top of the page to help users filter offers.
+5. The filter bar contains:
+   - Arrival Date
+   - Departure Date
+   - Offer Code
+   - Guest Count Picker
+   - Search Action (Button)
+   - Clear Filter Action (Button)
+6. When arrival and departure dates are selected, the system displays offers available for the selected date range.
+7. Users can search for a specific offer using the **Offer Code** filter.
+8. The **Guest Count Picker** allows users to specify the number of guests included in the offer search. This filter is displayed only when the property permission `displayGuestCountInOfferandCalendarPage` is enabled.
+9. The search behavior depends on the `enableAutoSearch` permission:
+   - If enabled, offers are automatically filtered when filter values change.
+   - If disabled, users must click the **Search** button to apply the selected filters.
+10. The **Clear Filter** action resets all filter values and reloads the default offer list.
+11. When a user selects an offer, they are navigated to the **Calendar** page.
 
 ```mermaid
 flowchart TD
