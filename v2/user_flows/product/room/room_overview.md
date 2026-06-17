@@ -1,4 +1,7 @@
 # Room Routes
+-      /onecart/wbe/offers/1844/OmegaResorts
+-      OmegaResorts - Property Id
+-      1844 - Tenant Id
 
 # Room Flow - Offers
 
@@ -70,3 +73,7 @@ V --> X[User Selects Offer]
 
 X --> Y[Navigate to Calendar Page]
 ```
+
+#### Image reference for common, but autosearch and guest count disabled due to permissions.
+
+![alt text](image-1.png)
