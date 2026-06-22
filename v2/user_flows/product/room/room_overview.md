@@ -77,3 +77,8 @@ X --> Y[Navigate to Calendar Page]
 #### Image reference for common, but autosearch and guest count disabled due to permissions.
 
 ![alt text](image-1.png)
+
+
+# Room Flow - Calendar
+
+1. 
